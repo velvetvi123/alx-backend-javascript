@@ -1,15 +1,17 @@
 {
-  "name": "0x06-unittests_in_js",
+  "name": "node-starter",
   "version": "1.0.0",
-  "description": "0x06-unittests_in_js",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "mocha **/*.test.js"
+    "test": "mocha"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
   "devDependencies": {
-    "mocha": "^10.8.2"
+    "mocha": "^10.2.0",
+    "chai": "^4.2.0",
+    "sinon": "^7.5.0",
+    "request": "^2.88.0"
   }
 }
